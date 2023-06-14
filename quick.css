@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+}
+header {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+#container {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#container .left-side {
+    padding: 10px;
+}
+#container .right-side a {
+    text-decoration: none;
+    color: #3B506C;
+    font-size: 20px;
+    font-weight:700;
+    margin-left: 20px;
+}
+#section-1 {
+    width: 1100px;
+    margin: 0 auto;
+}
+#section-1 h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #3B506C;
+}
+#section-1 span {
+    color: #0C66FF;
+}
+#section-1 p {
+    text-align: center;
+    font-size: 20px;
+    color: #3B506C;
+    margin-bottom: 50px;
+}
+#section-1 img {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+#section-2 {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#section-2 .left-side {
+    width: 45%;
+    text-align: right;
+}
+#section-2 .left-side h2 {
+    color: #FF3333;
+    font-size:  50px;
+}
+#section-2 .left-side p {
+    font-size: 20px;
+    color: #3B506C;
+}
+#section-2 .right-side {
+    width: 40%;
+    font-size: 30px;
+    color: #3B506C;
+}
+#card-area {
+    width: 1100px;
+    margin: 50px auto;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: auto auto auto;
+}
+#card-area .card-item {
+    background-color: #fbfbd1;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #495b63;
+    transition: background-color 1s;
+    
+}
+#card-area .card-item:hover {
+    background-color: rgb(252, 220, 252);
+}
+#card-area .card-item img {
+    max-width: 100%;
+    height: 200px;
+    
+}
+
+/*last section*/
+footer {
+    background-color: #EEEEEE;
+    padding: 50px 0;
+}
+footer .container {
+    width: 1100px;
+   
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+} 
+footer .container .box a {
+    display: block;
+    text-decoration: none;
+    color: #3B506C;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+footer .container .box a:first-child{
+    font-size: 30px;
+    color: #0C66FF;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
